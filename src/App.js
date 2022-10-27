@@ -3,16 +3,21 @@ import { Information } from "./Information";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RecurlyWrapper } from "./PaymentForm/RecurlyWrapper";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <RecurlyWrapper />,
+    },
+    {
+      path: "/info",
+      element: <Information />,
+    },
+  ],
   {
-    path: "/",
-    element: <RecurlyWrapper />,
-  },
-  {
-    path: "/info",
-    element: <Information />,
-  },
-]);
+    basename: process.env.NODE_ENV === "production" ? "/react-js-sandbox" : "/",
+  }
+);
 
 function App() {
   return (
