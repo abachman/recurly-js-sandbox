@@ -1,16 +1,30 @@
-import './App.css';
-import { PaymentForm } from './PaymentForm/PaymentForm';
+import "./App.css";
+import { Information } from "./Information";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RecurlyWrapper } from "./PaymentForm/RecurlyWrapper";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RecurlyWrapper />,
+  },
+  {
+    path: "/info",
+    element: <Information />,
+  },
+]);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          This is a Recurly Form
-        </p>
-        <PaymentForm />
+    <>
+      <header>
+        <h1>STORE</h1>
       </header>
-    </div>
+      <main>
+        <RouterProvider router={router} />
+      </main>
+      <footer>since 2022™</footer>
+    </>
   );
 }
 
