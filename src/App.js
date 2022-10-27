@@ -1,23 +1,18 @@
 import "./App.css";
 import { Information } from "./Information";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import { RecurlyWrapper } from "./PaymentForm/RecurlyWrapper";
 
-const router = createBrowserRouter(
-  [
-    {
-      path: "/",
-      element: <RecurlyWrapper />,
-    },
-    {
-      path: "/info",
-      element: <Information />,
-    },
-  ],
+const router = createHashRouter([
   {
-    basename: process.env.NODE_ENV === "production" ? "/react-js-sandbox" : "/",
-  }
-);
+    path: "/",
+    element: <RecurlyWrapper />,
+  },
+  {
+    path: "/info",
+    element: <Information />,
+  },
+]);
 
 function App() {
   return (
