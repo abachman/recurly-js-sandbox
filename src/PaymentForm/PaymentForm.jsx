@@ -54,9 +54,7 @@ export const PaymentForm = () => {
         </p>
         <CardElement />
         <RiskDataCollector strategy="kount" onError={handleError} />
-        <button role="button" type="submit">
-          Submit
-        </button>
+        <button type="submit">Submit</button>
       </form>
 
       <p>
