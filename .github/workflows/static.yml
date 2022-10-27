@@ -49,6 +49,7 @@ jobs:
         run: npm run build
         env:
           PUBLIC_URL: https://abachman.github.io/recurly-js-sandbox/
+          NODE_ENV: production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
