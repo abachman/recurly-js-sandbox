@@ -26,8 +26,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-      PUBLIC_URL: ${{ steps.deployment.outputs.page_url }}
-      NODE_ENV: production
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
