@@ -2,6 +2,7 @@
   "name": "recurly-js-sandbox",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://abachman.github.io/recurly-js-sandbox/",
   "dependencies": {
     "@recurly/react-recurly": "^1.2.4",
     "@testing-library/jest-dom": "^5.16.5",

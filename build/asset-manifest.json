@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0bdc772.css",
-    "main.js": "/static/js/main.8185f9ee.js",
-    "static/js/787.7d253a6e.chunk.js": "/static/js/787.7d253a6e.chunk.js",
-    "index.html": "/index.html",
-    "main.b0bdc772.css.map": "/static/css/main.b0bdc772.css.map",
-    "main.8185f9ee.js.map": "/static/js/main.8185f9ee.js.map",
-    "787.7d253a6e.chunk.js.map": "/static/js/787.7d253a6e.chunk.js.map"
+    "main.css": "https://abachman.github.io/recurly-js-sandbox/static/css/main.b0bdc772.css",
+    "main.js": "https://abachman.github.io/recurly-js-sandbox/static/js/main.6d1947fc.js",
+    "static/js/787.7d253a6e.chunk.js": "https://abachman.github.io/recurly-js-sandbox/static/js/787.7d253a6e.chunk.js",
+    "index.html": "https://abachman.github.io/recurly-js-sandbox/index.html",
+    "main.b0bdc772.css.map": "https://abachman.github.io/recurly-js-sandbox/static/css/main.b0bdc772.css.map",
+    "main.6d1947fc.js.map": "https://abachman.github.io/recurly-js-sandbox/static/js/main.6d1947fc.js.map",
+    "787.7d253a6e.chunk.js.map": "https://abachman.github.io/recurly-js-sandbox/static/js/787.7d253a6e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0bdc772.css",
-    "static/js/main.8185f9ee.js"
+    "static/js/main.6d1947fc.js"
   ]
 }
