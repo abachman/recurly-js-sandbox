@@ -5,7 +5,7 @@ export const PaymentForm = () => {
     () => {
       console.log('sets up payment form', new Date())
     }
-  , null)
+  , [])
 
   return (
     <form>
