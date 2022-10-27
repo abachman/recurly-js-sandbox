@@ -52,6 +52,31 @@ export const PaymentForm = () => {
             placeholder="Last name"
           />
         </p>
+        <p>
+          <label>Address1</label>
+          <input
+            type="text"
+            data-recurly="address1"
+            placeholder="Street Address"
+          />
+        </p>
+        <p>
+          <label>City</label>
+          <input type="text" data-recurly="city" placeholder="City" />
+        </p>
+        <p>
+          <label>State</label>
+          <input type="text" data-recurly="state" placeholder="Country" />
+        </p>
+        <p>
+          <label>Country</label>
+          <input type="text" data-recurly="country" placeholder="Country" />
+        </p>
+        <p>
+          <label>Postal Code</label>
+          <input type="text" data-recurly="postal_code" placeholder="Zip" />
+        </p>
+
         <CardElement />
         <RiskDataCollector strategy="kount" onError={handleError} />
         <button type="submit">Submit</button>
