@@ -5,7 +5,10 @@ const RECURLY_PUBLIC_KEY = "ewr1-hsOAL9QykVGxKus3HouFp8";
 
 export const RecurlyWrapper = () => {
   return (
-    <RecurlyProvider publicKey={RECURLY_PUBLIC_KEY}>
+    <RecurlyProvider
+      publicKey={RECURLY_PUBLIC_KEY}
+      fraud={{ kount: { dataCollector: true } }}
+    >
       <Elements>
         <PaymentForm />
       </Elements>
