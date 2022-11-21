@@ -1,7 +1,7 @@
 import { PaymentForm } from "./PaymentForm";
 import { Elements, RecurlyProvider } from "@recurly/react-recurly";
 
-const RECURLY_PUBLIC_KEY = "ewr1-hsOAL9QykVGxKus3HouFp8";
+const RECURLY_PUBLIC_KEY = "ewr1-YYr0JsQKITjLmeqHAb7L0U"; // reasonable
 
 export const RecurlyWrapper = () => {
   return (
